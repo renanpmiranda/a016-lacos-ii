@@ -11,5 +11,6 @@ for(let i = 0; i < array.length; i++){
     for(let j of array[i]){
         jogador += j + ', '
     }
-console.log(`Jogador ${i+1}: ${jogador}`)
+    
+console.log(`Jogador ${i+1}: ${jogador.split(',', array.length)}`)
 }
